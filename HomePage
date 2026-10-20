@@ -1,3 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="Style/MainStyles.css"> 
+</head>
 <body>
-<title>Dan O'Donnell </title>
+<div class="title">
+	<a href="#default" class="logo">CompanyLogo</a>
+	
+	<dif class="title-right">
+		<a href="#" class="right">Search</a>
+	</dif>	
+</div>	
+	
+<div class="header">
+	<a class="active" href="#home">Home</a>
+
+	<div class="dropdown">
+	<button class="dropbtn">IMAGE</button>
+		<div class="dropdown-content">
+		    <a href="MainPages/RecipeLanding.html">Recipes</a>
+		    <a href="#">Past Menu</a>
+		    <a href="MainPages/AboutMe.html">About me</a>
+		    <a href="#">Contact me</a>
+		</div>
+	</div>
+	
+ </div>
+
+
+  <div class="main">
+    <h2>Welcome to the Menu!</h2>
+    <h3>A collection of free-from recipes, safe for ibs and nut allergies!</h3>
+    <div class="fakeimg" style="width:100%;"><strong>PUT IMAGE HERE</strong></div>
+	  
+    <p>I’d like to say a quick hello and weIcome to my page! <br><br>
+       If you are here to view my work consider this my portfolio! <br>
+       I encourage you to have a look around and see what I can do. </p>
+  </div>
+
+<hr class="decorative-line">
+<hr class="decorative-line">
+
+<div class="main">
+	<h2>Recipe Categories</h2>
+	<div class="row">
+		<div class="column">
+		<img src="images/cakes.png" alt=" Breakfast" style=" width:100%">
+	</div>
+	<div class="column">
+		<img src="images/cookies.png" alt=" Lunch" style="width:100%">
+	</div>
+	<div class="column">
+		<img src="images/biscuits.png" alt=" Dinner" style="width:100%">
+	</div>
+	<div class="column">
+		<img src="images/tray-bake.png" alt=" Bakes" style="width:100%">
+	</div>
+	<div class="column">
+		<img src="images/pastry.png" alt=" Shakes" style="width:100%">
+	</div>
+	<div class="column">
+		<img src="images/bread.png" alt=" Afternoon tea" style="width:100%">
+	</div>
+</div>
+	
+<div class="footer">
+	<div class="row">
+		<div class="column">
+			<p>Location<br>L'Derry<br>Northern Ireland<br></p>
+		</div>
+		<div class="column">
+			<p>Hours<br>Monday - Friday<br> 9am - 5pm
+			</p>
+		</div>
+		<div class="column">
+			<p>Contact<br>Fill in the contact form and I'll get back to you as soon as possible!</p>
+		</div>
+</div>
+</div>
+
+
+<div class="navbarb">
+  <a href="#" class="right">Back to top</a>
+</div>
+
 </body>
+</html>
